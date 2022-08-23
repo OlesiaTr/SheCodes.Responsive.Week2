@@ -76,3 +76,36 @@ h3 {
   font-size: 28px;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .container {
+    margin-top: 80px;
+  }
+
+  .homepage-img {
+    display: none;
+  }
+
+  .nav__primary {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .col-md-6 {
+    text-align: center;
+  }
+
+  .about-img {
+    margin-bottom: 30px;
+  }
+}
