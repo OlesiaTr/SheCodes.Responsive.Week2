@@ -101,6 +101,10 @@ h3 {
     margin: 0 20px;
   }
 
+  .projects {
+    text-align: center;
+  }
+
   .col-md-6 {
     text-align: center;
   }
